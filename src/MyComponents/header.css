@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+section{
+    /* border: 2px solid green; */
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url('/src/img2.jpg') no-repeat fixed center ; */
+    background-color: black;
+    
+}
+#attract{
+    color: white;
+    width: 20%;
+}
+.main{
+    /* border: 2px solid red; */
+    margin: auto;
+    text-align: center;
+}
+
+#heading{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.allCards{
+    /* border: 2px solid yellow; */
+    width: auto;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+ul>li{
+    list-style: none;
+}
+
+.cards{
+    border: 2px solid black;
+    height: 200px;
+    width: 270px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cards:hover{
+    scale: 1.2;
+}
+#card_1{
+    background-image: linear-gradient(orange,white,green);
+}
+
+#card_2{
+    background-color: rgb(84, 255, 104);
+}
+#card_3{
+    background-color: rgb(246, 246, 29);
+}
+#card_4{
+    background-color: rgb(255, 0, 0);
+}
+#card_5{
+    background-color: rgb(255, 163, 82);
+}
+#card_6{
+    background-color: rgb(96, 210, 255);
+}
+
+.card_main >span{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card_main >p{
+    margin-bottom: 0;
+}
+h1{
+    font-weight: bolder;
+    /* font-size: xx-largeer; */
+
+}
